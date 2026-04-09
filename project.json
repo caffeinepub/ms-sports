@@ -1,0 +1,27 @@
+{
+  "overview": "MS Sports is an ultra-premium, cinematic website for Lucknow's top tennis cricket bat shop. Features a full-screen hero with parallax effects, interactive product showcase, 5-star testimonial carousel, and sticky conversion CTAs (WhatsApp, Call, Visit Store) to turn every visitor into a customer.",
+  "features": [
+    "Full-screen cinematic hero with parallax scroll and animated tagline",
+    "Sticky navigation with WhatsApp, Call, and Visit Store CTAs",
+    "First-time visitor 10% discount pop-up with localStorage persistence",
+    "Interactive product grid for 5 categories with hover effects and WhatsApp inquiry buttons",
+    "About / Why MS Sports section with 5 animated USP icons",
+    "Testimonial carousel with auto-rotation and manual navigation",
+    "Contact form with success toast and embedded map for Lucknow location",
+    "Scroll-triggered animations throughout all sections",
+    "Mobile-responsive layout with touch-optimized CTAs",
+    "Warm sporty color palette with premium rounded design"
+  ],
+  "category": "marketing-business",
+  "tags": [
+    "sports",
+    "cricket",
+    "tennis",
+    "retail",
+    "lucknow",
+    "landing-page",
+    "conversion",
+    "premium"
+  ],
+  "last_updated": "2026-04-09T06:26:02.107Z"
+}
