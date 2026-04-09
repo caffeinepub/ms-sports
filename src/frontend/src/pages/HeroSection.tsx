@@ -54,8 +54,8 @@ export default function HeroSection() {
             backgroundPosition: "center 30%",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/80" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/30 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/55 to-black/85" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/20 to-transparent" />
       </div>
 
       {/* Hero content */}
@@ -77,12 +77,28 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
-            className="mb-4"
+            className="mb-5"
           >
-            <h1 className="font-display font-extrabold text-white text-4xl sm:text-5xl lg:text-7xl leading-none tracking-tight mb-3">
+            {/* Gold accent bar */}
+            <div className="w-16 h-1 bg-amber-400 rounded-full mb-4 shadow-[0_0_12px_rgba(251,191,36,0.6)]" />
+            <h1
+              className="font-display font-black text-white text-5xl sm:text-6xl lg:text-8xl leading-none tracking-tighter mb-3 uppercase"
+              style={{
+                textShadow:
+                  "0 2px 24px rgba(0,0,0,0.6), 0 1px 4px rgba(0,0,0,0.8)",
+              }}
+            >
               MASTER
               <br />
-              <span className="text-accent">THE PITCH.</span>
+              <span
+                className="text-amber-400"
+                style={{
+                  textShadow:
+                    "0 2px 30px rgba(251,191,36,0.4), 0 1px 4px rgba(0,0,0,0.8)",
+                }}
+              >
+                THE PITCH.
+              </span>
             </h1>
           </motion.div>
 
@@ -95,10 +111,16 @@ export default function HeroSection() {
             transition={{ duration: 0.5 }}
             className="mb-8"
           >
-            <p className="text-white/90 text-lg sm:text-xl lg:text-2xl font-body font-medium leading-relaxed">
+            <p
+              className="text-amber-50 text-lg sm:text-xl lg:text-2xl font-body font-semibold leading-relaxed"
+              style={{ textShadow: "0 1px 8px rgba(0,0,0,0.7)" }}
+            >
               {taglines[taglineIndex]}
             </p>
-            <p className="text-white/70 text-base lg:text-lg mt-1">
+            <p
+              className="text-amber-100/80 text-base lg:text-lg mt-1"
+              style={{ textShadow: "0 1px 6px rgba(0,0,0,0.6)" }}
+            >
               Premium Quality · Expert Repair & Binding · Top Brands at
               Affordable Prices
             </p>
